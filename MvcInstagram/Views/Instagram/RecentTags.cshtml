@@ -1,0 +1,11 @@
+﻿
+@{
+    ViewBag.Title = "RecentTags";
+}
+
+<h2>RecentTags</h2>
+
+<script type="text/javascript">
+    var parse = JSON.parse(@Html.Raw(ViewBag.JsonResult));
+    console.log(parse);
+</script>
